@@ -28,6 +28,8 @@ By using a Chrome extension we could scan through every element on the page look
 We split into pairs: Mateusz and I built the Chrome extension, and Filip and Marcin built the cloud function and hooked it up to the Cognitive Services API. We started building at 2 pm and by 9 pm we were had a prototype fully working. The speed, accuracy and ease of integration that the image descriptions were generated would not have been possible just a few years ago. The extra time allowed us to link in three more APIs: facial recognition, emotion recognition and OCR (image to text), depending on what was in the image. This provided a much more descriptive image captions.
 > The speed, accuracy and ease of integration that the image descriptions were generated would not have been possible just a few years ago.
 
+![A real example](example.png)
+
 ### What's next?
 
 We are really proud of what we have built so far and cannot wait to release it to the public. We hope our Chrome extension will impower those with visual impairments to browse the web, without having to rely on others to create the "alt tags".
