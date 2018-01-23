@@ -30,7 +30,7 @@ We split into pairs: Mateusz and I built the Chrome extension, and Filip and Mar
 
 ![example generated description](example.png)
 
-(Watch a demo)[https://www.youtube.com/watch?v=SesPIkT-Sn8]
+[Watch a demo](https://www.youtube.com/watch?v=SesPIkT-Sn8)
 
 ### What's next?
 
