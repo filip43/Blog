@@ -21,7 +21,7 @@ _The Screen Reader would not pickup any details of this "Hot Job"_
 
 ## The solution
 
-Once we had narrowed down the problem, coming up with the solution was much easier. We decided we would bring [Microsoft's Narrator image description generation](https://mspoweruser.com/windows-10s-narrator-can-now-automatically-write-photo-captions/), found only in Windows 10, to everyone regardless of device.
+Once we had narrowed down the problem coming up with the solution was much easier. We decided we would bring automatic "alt-tag" generation to everyone on the internet, regardless of device.
 
 By using a Chrome extension we could scan through every element on the page looking for images lacking an "alt tag". For each image where the "alt tag" was missing, we would send the image URL to an Azure cloud function. The cloud function would check if we already had the "alt tag" saved and if so return it. If not, we would use the Microsoft's Cognitive Services Vision API to perform object recognition and generate the description to be added as the "alt tag". 
 
@@ -35,6 +35,6 @@ We split into pairs: Mateusz and I built the Chrome extension, and Filip and Mar
 
 ### What's next?
 
-We are really proud of what we have built so far and cannot wait to release it to the public. We hope our Chrome extension will empower those with visual impairments to browse the web, without having to rely on others to create the "alt tags".
+We are really proud of what we have built so far and are currently recruiting for a pilot to see if it can actually improve people's lives. We hope our Chrome extension will empower those with visual impairments to browse the web, without having to rely on others to create the "alt tags".
 
 ![Team Picture](team.jpg)
