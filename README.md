@@ -11,19 +11,19 @@ We knew we wanted to build on SeeingAI's fantastic work. We initially discussed 
 
 ## The problem
 
-People with visual impairments frequently rely on a Screen Reader to navigate the internet. The Screen Reader reads out the written content of each page. However, when the Screen Reader reaches an image it has to rely on the “alt tag” to provide a caption. For the majority of the internet these “alt tags” are either missing (think of any user-uploaded content such as Twitter or LinkedIn), superficial or inaccurate.
+People with visual impairments frequently rely on a Screen Reader to navigate the internet. The Screen Reader reads out the written content of each page. However, when the Screen Reader reaches an image it has to rely on the “alt tag” to provide a caption. For the majority of the internet these “alt tags” are either missing (think of any user-uploaded content such as Twitter or LinkedIn), superficial or inaccurate. To test out images for yourself: right click on an image, click inspect element and see what person with visual impairments hears!
 
 > This affects millions of people every day.
 
-<img align="center" width="460" src="job.png" alt="Example of job post which is save as an image and therefore not accessible">  
+<img align="center" width="460" src="job.png" alt="Example of job post which is an image and therefore not accessible">  
 
 _The Screen Reader would not pickup any details of this "Hot Job"_
 
 ## The solution
 
-Once we had narrowed down the problem, coming up with the solution was much easier. We decided we would bring Facebook's automatic "alt tag" generation to every page on the internet (right click on your profile picture, click inspect element and see what Facebook's sees!).
+Once we had narrowed down the problem, coming up with the solution was much easier. We decided we would bring [Microsoft's Narrator image description generation](https://mspoweruser.com/windows-10s-narrator-can-now-automatically-write-photo-captions/), found only in Windows 10, to everyone regardless of device.
 
-By using a Chrome extension we could scan through every element on the page looking for images lacking an "alt tag". For each image where the "alt tag" was missing, we would send the image URL to an Azure cloud function. The cloud function would check if we already had the "alt tag" saved and if so return it. If not we would use the Microsoft's Cognitive Services Vision API to perform object recognition and generate the description to be added as the "alt tag". 
+By using a Chrome extension we could scan through every element on the page looking for images lacking an "alt tag". For each image where the "alt tag" was missing, we would send the image URL to an Azure cloud function. The cloud function would check if we already had the "alt tag" saved and if so return it. If not, we would use the Microsoft's Cognitive Services Vision API to perform object recognition and generate the description to be added as the "alt tag". 
 
 We split into pairs: Mateusz and I built the Chrome extension, and Filip and Marcin built the cloud function and connected it to the Cognitive Services API. We started programming at 2 pm and by 9 pm we already had a fully functional prototype. The speed, accuracy and ease of integration with which the image descriptions were being generated would not have been possible just a few years ago. The extra time allowed us to link in three more APIs: facial recognition, emotion recognition and OCR (image to text), depending on what was in the image. This provided much more descriptive image captions.
 
