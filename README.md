@@ -35,6 +35,7 @@ We split into pairs: Mateusz and I built the Chrome extension, and Filip and Mar
 
 ### What's next?
 
-We are really proud of what we have built so far and are currently recruiting for a pilot to see if it can actually improve people's lives. We hope our Chrome extension will empower those with visual impairments to browse the web, without having to rely on others to create the "alt tags".
+I'm really proud of the team and happy to say we won the Microsoft Prize! We will be continuing to build on our work and we are currently recruiting for a small pilot study to see if we can actually improve people's lives. For more information please visit our website: [visualcognition.co](https://visualcognition.co/). We hope our Chrome extension will empower those with visual impairments to browse the web, without having to rely on others to create the "alt tags".
 
 ![Team Picture](team.jpg)
+_Collecting the Microsoft Prize_
