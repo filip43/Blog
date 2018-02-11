@@ -37,12 +37,15 @@ We split into pairs: Mateusz and I built the Chrome extension, and Filip and Mar
 
 We didn't want to stop after the hackathon finished! Determined to bring our tool to people all over the world we started to plan our the public launch. Working with UCL and the Global Disability Innovation Hub we are proud to announce we will be running a pilot study to confirm the efficacy of what we are building. If you are interested in hearing more please [register your interest](https://visualcognition.co/). Additionally, [Lee](https://twitter.com/lee_stott) and [Geoff](https://twitter.com/geoffhu), from Microsoft, have introduced us to the accessibility team at Microsoft who have provided crucial advice on how we can further develop our tool for maximum impact.
 
-We hope our Chrome extension will empower those with visual impairments to browse the web, without having to rely on others to create the "alt tags".
+
+![we are running a pilot study with UCL and the Global Disability Innovation Hub](pilot_study.png)
+
+> We hope our Chrome extension will empower those with visual impairments to browse the web, without having to rely on others to create the "alt tags".
 
 To stay up to date with what we are doing:
 - [VisualCognition.co](https://visualcognition.co/)
 - [Facebook](https://www.facebook.com/visualcognitionai/)
 - [Twitter](https://twitter.com/VCognitionAI)
 
-![Team Picture](team.jpg)
-_Collecting the Microsoft Prize_
+![Team Picture with Lee and Geoff from Microsoft](maximilian_ge_photo.jpg)
+_Collecting the Microsoft Prize. Photo by Maximilian Ge_
