@@ -1,5 +1,5 @@
 ## Improving the internet for the millions, with just a weekend
-_Guest blog by [Luke Harries](https://www.linkedin.com/in/luke-harries/), representing the Microsoft's Cognitive Services prize winners at HackCambridge._
+_Guest blog by [Luke Harries](https://www.linkedin.com/in/luke-harries/), representing Microsoft's Cognitive Services prize winners at HackCambridge._
 
 [HackCambridge](https://hackcambridge.com/) provided the perfect opportunity to return to Cambridge University. It is where I completed my undergraduate degree in Medicine and Cognitive Neuroscience, before moving to UCL to study a masters in Computer Science. Our team included [Filip](https://www.linkedin.com/in/filipkozera/), a masters student in information engineering at Cambridge, where he is using deep learning on EMG signals to control prosthetics; [Marcin](https://www.linkedin.com/in/marcin-kolaszewski-07912314a/), a joint honors Mathematics and Computer Science student from Brown University; and [Mateusz](https://www.linkedin.com/in/mateusz-jakub-staniszewski-19946590/), a recent Mathematics graduate from Imperial and a current Software Engineer at BlackRock.
 
