@@ -1,5 +1,4 @@
 ## Improving the internet for the millions, with just a weekend
-_Guest blog by [Luke Harries](https://www.linkedin.com/in/luke-harries/), representing Microsoft's Cognitive Services prize winners at HackCambridge._
 
 [HackCambridge](https://hackcambridge.com/) provided the perfect opportunity to invite my friends to visit Cambridge.
 
